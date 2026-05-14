@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background: lightgrey;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+nav a {
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+nav a img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+nav a div {
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+audio {
+    display: block;
+    margin-top: 20px;
+}
